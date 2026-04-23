@@ -3,19 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://kirikiro.github.io/Courses-MES/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
   },
-  "homepage": "https://kirikiro.github.io/Courses-MES/",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
   "devDependencies": {
     "@babel/core": "^7.29.0",
     "@eslint/js": "^10.0.1",
