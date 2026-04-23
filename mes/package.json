@@ -13,6 +13,9 @@
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
   },
+  "homepage": "https://kirikiro.github.io/Courses-MES/",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
   "devDependencies": {
     "@babel/core": "^7.29.0",
     "@eslint/js": "^10.0.1",
@@ -24,6 +27,7 @@
     "eslint": "^10.2.1",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
+    "gh-pages": "^6.3.0",
     "globals": "^17.5.0",
     "vite": "^8.0.10"
   }
